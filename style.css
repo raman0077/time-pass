@@ -6,39 +6,82 @@
 .a {
   float:left;
   width:100%;
-  height:100cm;
+  height:100%;
+  background-color: #ffde00;
 }
 .b{
   float: left;
   width: 100%;
-  background-color: blue;
+  background-color: #ffde00;
+  height:0px;
+  margin: 3rem;
+}
+.raman{
+  float: left;
+  width: 20%;
+  background-color: #ffde00;
   height:50px;
 }
-.c {
-  background-color:silver;
+img src{
+  margin-top: 0;
+  height: 5cm;
+  width: 1cm;
+}
+button{
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#ffde00;
+}
+
+li {
   float: left;
-  height: 300px;
-  width:20%;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#ffde00;
+}
+.c {
+  background-color:#ffde00;
+  float: left;
+  height: 7cm;
+  width:30%;
+  margin: 3rem;
 }
 .d {
   float:left;
-  width:55%;
-  height: 300px;
-  background-color: black;
+  width:50%;
+  height: 7cm;
+  background-color: #ffde00;
 }
 .e {
   float:left;
   width:20%;
-  height: 300px;
+  height: 2cm;
   padding:0 20px;
-  background-color: #e5e5e5;
+  background-color: #ffde00;
  
 }
 .f{
   float: left;
   width: 100%;
-  background-color: blue;
-  height:50px;
+  background-color: #ffde00;
+  height:300px;
 }
 
 @media only screen and (max-width:620px) {
